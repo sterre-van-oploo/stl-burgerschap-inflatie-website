@@ -1,6 +1,7 @@
 * {
     background-color: (248,248,235);
     overflow: hidden;
+    font-family: monospace;
 }
 
 
@@ -16,6 +17,14 @@
     position: absolute;
     left: 510px;
     top: 150px;
+    color: black;
+    z-index: 3;
+}
+
+.main-text {
+    position: absolute;
+    left: 500px;
+    top: 230px;
     color: black;
     z-index: 3;
 }
@@ -52,8 +61,8 @@
 .Flying-Money {
     position: absolute;
     z-index: 3;
-    width: 430px;
-    height: 250px;
+    width: 300px;
+    height: 170px;
     right: 0;
     top: 180px;
 }
@@ -77,13 +86,14 @@
 .money-image-left {
     position: absolute;
     left: 0;
-    bottom: 1px;
-    width: 100px;
-    height: 100px;
+    top: 230px;
+    width: 5100px;
+    height: 6460px;
+    z-index: 3;
 }
 
 
 .money-image-left img {
-    width: 100px;
-    height: 100px;
+    width: 500px;
+    height: 640px;
 }

@@ -1,4 +1,60 @@
-* {
-    background-color: blue;
-} 
+.titel {
+    position: absolute;
+    left: 420px;
+    top: 120px;
+    color: black;
+    z-index: 3;
+}
 
+.titel2 {
+    position: absolute;
+    left: 510px;
+    top: 150px;
+    color: black;
+    z-index: 3;
+}
+
+.Fire {
+    position: absolute;
+    width: 1536px;
+    height: 110px;
+    left: 0px;
+    top: 0px;
+    z-index: 1;
+}
+
+.Fire-border {
+    position: absolute;
+    width: 6px;
+    height: 10px;
+    left: 0px;
+    top: 0px;
+    z-index: 1;
+}
+
+.beige-block {
+    position: absolute;
+
+    background-color: #EBE1CC;
+    width: 1078px;
+    height: 824px;
+    left: 0px;
+    bottom: 0px;
+    z-index: 1;
+}
+
+.Flying-Money {
+    position: absolute;
+    z-index: 3;
+    width: 430px;
+    height: 250px;
+    right: 0;
+    top: 180px;
+}
+
+.Wallet {
+    position: absolute;
+    z-index: 3;
+    right: 0;
+    bottom: 0;
+}

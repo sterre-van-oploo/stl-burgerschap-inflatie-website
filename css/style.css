@@ -1,3 +1,9 @@
+* {
+    background-color: (248,248,235);
+    overflow: hidden;
+}
+
+
 .titel {
     position: absolute;
     left: 420px;
@@ -57,4 +63,27 @@
     z-index: 3;
     right: 0;
     bottom: 0;
+}
+
+.money-image-left{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 20px;
+    height: 20px;
+}
+
+
+.money-image-left {
+    position: absolute;
+    left: 0;
+    bottom: 1px;
+    width: 100px;
+    height: 100px;
+}
+
+
+.money-image-left img {
+    width: 100px;
+    height: 100px;
 }
